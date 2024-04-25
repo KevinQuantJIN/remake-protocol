@@ -3,7 +3,7 @@
 To let relaunch the not liquidite meme-coin easier and trustless.
 ## Contract Breakdown
 
-### Instructions
+### Meme ALchemy 
 
 #### 1.init_pool
 
@@ -16,6 +16,16 @@ Initialize an account to hold state about a pool's deposit position. PDA with th
 #### 3. Stake
 
 #### 4. Unstable
+
+### VAMM
+
+VAMM aims to provide virtual liquidity for the meme coin relaunch project.
+
+#### 1. init_pool
+Initialize the liquidty pool with vitual SOL liquidity.
+
+#### 2. swap
+Users can swap in the virutal liquidity pool. In certain threshold, it can only be swapped in rather than swapped out. Similar idea with Pump.Fun.
 
 ## Frontend
 
